@@ -1,0 +1,142 @@
+body {
+  background: url(../image/homepage-option18-banner.jpg);
+}
+
+header {
+  height: auto;
+}
+header .hamburger {
+  padding-top: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  position: relative;
+  transform: translateY(-50%);
+}
+header .hamburger .bar {
+  background-color: black;
+  width: 100%;
+  height: 3px;
+}
+header .hamburger #bar2 {
+  margin-top: 5px;
+}
+header .hamburger #bar3 {
+  margin-top: 5px;
+}
+header .hamburger.active {
+  z-index: 100;
+}
+header .hamburger.active #bar1 {
+  background-color: #fff;
+  transform: rotate(45deg) translate(6px, 5px);
+}
+header .hamburger.active #bar2 {
+  background-color: transparent;
+}
+header .hamburger.active #bar3 {
+  background-color: #fff;
+  transform: rotate(-45deg) translate(6px, -5px);
+}
+header .navs {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: #000;
+  transition: 0.4s;
+}
+header .navs.active {
+  left: 0;
+}
+header .container .col-md-8 ul li a {
+  color: #fff;
+}
+header .container .col-md-8 ul li a:hover {
+  color: rgb(255, 33, 79);
+}
+header .container .col-md-4 h4 {
+  color: rgb(255, 33, 79);
+}
+header .container .col-md-4 p {
+  font-size: 18px;
+}
+header .container .col-md-4 span {
+  position: relative;
+  color: #fff;
+}
+header .container .col-md-4 span:hover {
+  color: rgb(175, 55, 115);
+}
+header .container .col-md-4 span::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 2px;
+  background-color: rgb(255, 33, 79);
+  position: absolute;
+  top: 70px;
+}
+header .container .col-md-4 .fa-facebook-f {
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+}
+header .container .col-md-4 .fa-facebook-f:hover {
+  color: rgba(0, 0, 255, 0.856);
+  transition: 1s;
+}
+header .container .col-md-4 .fa-twitter {
+  font-size: 18px;
+  color: rgb(111, 111, 111);
+}
+header .container .col-md-4 .fa-twitter:hover {
+  color: rgb(6, 158, 228);
+  transition: 1s;
+}
+header .container .col-md-4 .fa-google-plus-g {
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+}
+header .container .col-md-4 .fa-google-plus-g:hover {
+  color: rgb(255, 33, 79);
+  transition: 1s;
+}
+header .container .col-md-4 .fa-dribbble {
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+}
+header .container .col-md-4 .fa-dribbble:hover {
+  color: rgb(226, 77, 107);
+  transition: 1s;
+}
+header .container .col-md-4 .fa-linkedin-in {
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+}
+header .container .col-md-4 .fa-linkedin-in:hover {
+  color: rgb(255, 33, 79);
+  transition: 1s;
+}
+
+.hero {
+  height: 84.3vh;
+}
+.hero .container .col-md-9 h1 {
+  font-size: 100px;
+}
+.hero .container .col-md-9 h1 span {
+  position: relative;
+}
+.hero .container .col-md-9 h1 span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  left: 5px;
+}/*# sourceMappingURL=style.css.map */
